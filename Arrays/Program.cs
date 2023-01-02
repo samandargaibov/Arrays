@@ -6,14 +6,70 @@
         {
             #region Task1
             ////elementlerin cemi ve sayini tapmaq.
-            Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write("Reqemi daxil edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int count = 0;
+            //int sum = 0;
+
+            //foreach (var item in arr)
+            //{
+            //    if (item < 0)
+            //    {
+            //        count++;
+            //        Console.WriteLine(item);
+            //        sum += item;
+            //    }
+            //}
+            //Console.WriteLine("Menfi reqemlerin sayi: " + count + "\nMenfi elementlerin cemi: " + sum);
+            #endregion
+
+            #region Task2
+            ////5e bolunen ve 7-e bolunmeyenlerin cemi ve sayi.
+            //Console.Write("Massivin uzunlugunu daxil edin: ");
+
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write("Reqemleri daxil edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int sum = 0;
+            //int count = 0;
+
+            //foreach (var item in arr)
+            //{
+            //    if (item % 5 == 0 && item % 7 != 0)
+            //    {
+            //        count++;
+            //        sum += item;
+            //        Console.WriteLine($"5-e bolunenler: {item}");
+            //    }
+            //}
+            //Console.WriteLine("5-e bolunen ve 7-ye bolunmeyen elementlerin cemi: " + sum + "\nSayi: " + count);
+            #endregion
+
+            #region Task3
+            ////musbet ve tek olan elementlerin cemi ve sayi
+            Console.Write("Massivin uzunlugunu daxil edin: ");
 
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
 
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write("Reqemi daxil edin: ");
+                Console.Write("Reqemleri daxil edin: ");
                 arr[i] = int.Parse(Console.ReadLine());
             }
 
@@ -22,14 +78,14 @@
 
             foreach (var item in arr)
             {
-                if (item < 0)
+                if (item > 0 && item % 2 != 0)
                 {
                     count++;
-                    Console.WriteLine(item);
                     sum += item;
+                    Console.WriteLine("Musbet ve tek olan elementler: " + item);
                 }
             }
-            Console.WriteLine("Menfi reqemlerin sayi: " + count + "\nMenfi elementlerin cemi: " + sum);
+            Console.WriteLine("Musbet ve tek olan reqemlerin cemi: " + sum + "\nSayi: " + count);
             #endregion
 
 
