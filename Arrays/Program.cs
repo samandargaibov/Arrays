@@ -233,6 +233,7 @@
 
             //Console.WriteLine("\nEn boyuk element: " + arr[maxIndex] + "\nElementin indexi: " + maxIndex);
             #endregion
+
             #region Task10
             ////Axirinci minimal elementi tapmaq.
             //Console.Write("Massivin uzunlugunu qeyd edin: ");
@@ -242,7 +243,7 @@
             //for (int i = 0; i < arr.Length; i++)
             //{
             //    Console.Write($"Reqemleri [{i}] daxil edin: ");
-            //    arr[i]=Convert.ToInt32(Console.ReadLine());
+            //    arr[i] = Convert.ToInt32(Console.ReadLine());
             //}
 
             //int minIndex = 0;
