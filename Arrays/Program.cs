@@ -62,30 +62,60 @@
 
             #region Task3
             ////musbet ve tek olan elementlerin cemi ve sayi
-            Console.Write("Massivin uzunlugunu daxil edin: ");
+            //Console.Write("Massivin uzunlugunu daxil edin: ");
 
-            int n = int.Parse(Console.ReadLine());
-            int[] arr = new int[n];
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.Write("Reqemleri daxil edin: ");
-                arr[i] = int.Parse(Console.ReadLine());
-            }
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write("Reqemleri daxil edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
 
-            int count = 0;
-            int sum = 0;
+            //int count = 0;
+            //int sum = 0;
 
-            foreach (var item in arr)
-            {
-                if (item > 0 && item % 2 != 0)
-                {
-                    count++;
-                    sum += item;
-                    Console.WriteLine("Musbet ve tek olan elementler: " + item);
-                }
-            }
-            Console.WriteLine("Musbet ve tek olan reqemlerin cemi: " + sum + "\nSayi: " + count);
+            //foreach (var item in arr)
+            //{
+            //    if (item > 0 && item % 2 != 0)
+            //    {
+            //        count++;
+            //        sum += item;
+            //        Console.WriteLine("Musbet ve tek olan elementler: " + item);
+            //    }
+            //}
+            //Console.WriteLine("Musbet ve tek olan reqemlerin cemi: " + sum + "\nSayi: " + count);
+            #endregion
+
+            #region Task4
+            ////cut yerde duran elementlerin cemi ve sayi
+            //Console.Write("Massivin uzunlugunu daxil edin: ");
+
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write("Reqemleri daxil edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int count = 0;
+            //int sum = 0;
+            //int temp = 0;
+
+            //foreach (var item in arr)
+            //{
+            //    if (temp % 2 == 1 && item > 0 && item % 2 == 0)
+            //    {
+            //        count++;
+            //        sum += item;
+            //        Console.WriteLine("Sherti odeyen reqemler: " + item);
+            //    }
+            //    temp++;
+            //}
+            //Console.WriteLine("Cemi: " + sum + "\nSayi: " + count);
             #endregion
 
 
