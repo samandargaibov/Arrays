@@ -208,7 +208,54 @@
             //Console.WriteLine($"\nElementlerin toplam sayi: {count}");
             #endregion
 
+            #region Task9
+            ////birinci maximal elementin nomresini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
 
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write("Reqemleri daxil edin: ");
+            //    arr[i]=int.Parse(Console.ReadLine());
+            //}
+
+            //int maxIndex = 0;
+
+            //for (int i = 1; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > arr[maxIndex])
+            //    {
+            //        maxIndex = i;
+            //    }
+            //}
+
+            //Console.WriteLine("\nEn boyuk element: " + arr[maxIndex] + "\nElementin indexi: " + maxIndex);
+            #endregion
+            #region Task10
+            ////Axirinci minimal elementi tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Reqemleri [{i}] daxil edin: ");
+            //    arr[i]=Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //int minIndex = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] <= arr[minIndex])
+            //    {
+            //        minIndex = i;
+            //    }
+            //}
+            //Console.WriteLine("Minimal element: " + arr[minIndex] + "\nIndex sayi: " + minIndex);
+            #endregion
         }
     }
 }
