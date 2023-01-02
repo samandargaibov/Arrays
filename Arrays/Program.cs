@@ -178,6 +178,36 @@
             //Console.WriteLine($"Reqemlerin cemi: {sum}\nReqemlerin sayi: {count}");
             #endregion
 
+            #region Task7
+            ////7-ye bolende qaligi  1,2,5 olan reqemlerin sayi.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write("Reqemleri daxil edin: ");
+            //    arr[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //////static array
+            ///////int[] arr = { 10, 12, 15, 19, 21, 30, 37, 40 };
+
+            //int count = 0;
+
+            //foreach (var item in arr)
+            //{
+            //    if (item % 7 == 1 || item % 7 == 2 || item % 7 == 5)
+            //    {
+            //        count++;
+            //        Console.WriteLine("Qaliqla bolunen reqemler: " + item);
+            //    }
+            //}
+
+            //Console.WriteLine($"\nElementlerin toplam sayi: {count}");
+            #endregion
+
 
         }
     }
