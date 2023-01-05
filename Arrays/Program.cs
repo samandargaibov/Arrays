@@ -243,7 +243,7 @@
             //for (int i = 0; i < arr.Length; i++)
             //{
             //    Console.Write($"Reqemleri [{i}] daxil edin: ");
-            //    arr[i]=Convert.ToInt32(Console.ReadLine());
+            //    arr[i] = Convert.ToInt32(Console.ReadLine());
             //}
 
             //int minIndex = 0;
