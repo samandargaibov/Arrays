@@ -233,6 +233,7 @@
 
             //Console.WriteLine("\nEn boyuk element: " + arr[maxIndex] + "\nElementin indexi: " + maxIndex);
             #endregion
+
             #region Task10
             ////Axirinci minimal elementi tapmaq.
             //Console.Write("Massivin uzunlugunu qeyd edin: ");
@@ -255,6 +256,78 @@
             //    }
             //}
             //Console.WriteLine("Minimal element: " + arr[minIndex] + "\nIndex sayi: " + minIndex);
+            #endregion
+
+            #region Task15
+            ////birinci menfi elementi tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i]=int.Parse(Console.ReadLine());
+            //}
+
+            //int minus = 0;
+
+            //for (int i = 1; i < arr.Length; i++)
+            //{
+            //    if (arr[i] < arr[minus])
+            //    {
+            //        minus = i;
+            //    }
+            //}
+            //Console.WriteLine("Menfi elementin nomresi: " + minus);
+            #endregion
+
+            #region Task16
+            ////Axirinci musbet elementin nomresini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int musbet = 0;
+
+            //for (int i = 1; i < arr.Length; i++)
+            //{
+            //    if (arr[i] >= arr[musbet])
+            //    {
+            //        musbet = i;
+            //    }
+            //}
+            //Console.WriteLine("Axirinci musbet elementin nomresi: " + musbet);
+            #endregion
+
+            #region Task17
+            ////Axirinci menfi elementin nomresini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int minus = 0;
+
+            //for (int i = 1; i < arr.Length; i++)
+            //{
+            //    if (arr[i] <= arr[minus])
+            //    {
+            //        minus = i;
+            //    }
+            //}
+            //Console.WriteLine("Axirinci Menfi elementin nomresi: " + minus);
             #endregion
         }
     }
