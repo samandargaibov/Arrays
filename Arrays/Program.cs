@@ -329,6 +329,30 @@
             //}
             //Console.WriteLine("Axirinci Menfi elementin nomresi: " + minus);
             #endregion
+
+            #region Task19
+            ////ededlerin ortalamasini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int avg = 0;
+            //int count = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    avg = avg + arr[i];
+            //    count++;
+            //}
+            //avg = avg / count;
+            //Console.WriteLine("\nEdedlerin ortalamasi: " + avg);
+            #endregion
         }
     }
 }
