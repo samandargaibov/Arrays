@@ -208,6 +208,34 @@
             //Console.WriteLine($"\nElementlerin toplam sayi: {count}");
             #endregion
 
+            #region Task8
+            ////Iki qat artirilmish tek elementleri tapin
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Reqemleri [{i}] daxil edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int count = 0;
+            //int temp = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (Math.Sqrt(arr[i]) % 1 == 0 && temp % 2 == 0 && arr[i] % 2 == 1)
+            //    {
+            //        Console.WriteLine("Tek elementler: " + arr[i]);
+            //        count++;
+            //    }
+            //    temp++;
+            //}
+            //Console.WriteLine("Ikiqat artirilmish tek ededlerin sayi: " + count);
+            #endregion
+
             #region Task9
             ////birinci maximal elementin nomresini tapmaq.
             //Console.Write("Massivin uzunlugunu qeyd edin: ");
@@ -371,9 +399,9 @@
 
             //for (int i = 0; i < arr.Length; i++)
             //{
-            //    tmp =1+ arr[i];
+            //    tmp = 1 + arr[i];
 
-            //    for (int j = 0; j < arr.Length-1; j++)
+            //    for (int j = 0; j < arr.Length - 1; j++)
             //    {
 
             //        if (arr[j] + tmp == arr[count])
