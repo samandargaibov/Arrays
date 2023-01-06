@@ -441,6 +441,36 @@
             //    Console.WriteLine("Hendesi silsiledir!");
             #endregion
 
+            #region Task23
+            ////elementlerin artan olub olmamasini yoxlamaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //bool check = true;
+
+            //for (int i = 0; i < arr.Length-1; i++)
+            //{
+            //    if (arr[i] >= arr[i+1])
+            //    {
+            //        Console.WriteLine("Artan deyil");
+            //        check = false;
+            //        break;
+            //    }
+            //}
+
+            //if (check)
+            //{
+            //    Console.WriteLine("Artandir");
+            //}
+            #endregion
+
             #region Task24
             ////x elementinin tekrarlanma sayini tapmaq.
             //Console.Write("Massivin uzunlugunu qeyd edin: ");
