@@ -664,6 +664,37 @@
             //}
             #endregion
 
+            #region Task30
+            ////Ferqli elementlerin sayini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int count = 0;
+
+            //for (int i = 0; i < arr.Length - 1; i++)
+            //{
+            //    if (arr[i] != arr[i + 1])
+            //    {
+            //        for (int j = i+1; j < arr.Length; j++)
+            //        {
+            //            if (arr[i] == arr[j])
+            //            {
+            //                count--;
+            //            }
+            //        }
+            //    }
+            //    count++;
+            //}
+            //Console.WriteLine("Ferqli elementlerin sayi: " + count);
+            #endregion
+
 
         }
     }
