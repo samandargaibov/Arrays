@@ -695,6 +695,47 @@
             //Console.WriteLine("Ferqli elementlerin sayi: " + count);
             #endregion
 
+            #region Task33
+            ////simmetrik olub olmamasini yoxlamaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int reverseNumber;
+            //int tmp, r, digitCount;
+            //bool simmetrik = true;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    tmp = arr[i];
+            //    digitCount = (int)Math.Log10(tmp);
+            //    reverseNumber = 0;
+
+            //    while (tmp != 0)
+            //    {
+            //        r = tmp % 10;
+            //        tmp /= 10;
+
+            //        reverseNumber += r * (int)Math.Pow(10, digitCount--);
+            //    }
+
+            //    if (arr[i] == reverseNumber)
+            //    {
+            //        Console.WriteLine("Simmetrik olan element: " + arr[i]);
+            //        simmetrik= false;
+            //    }
+            //}
+
+            //if (simmetrik)
+            //    Console.WriteLine("Simmetrik olan element yoxdur!");
+            #endregion
+
 
         }
     }
