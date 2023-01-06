@@ -384,6 +384,122 @@
 
             #region Task20
             ////Ededi silsile olub olmamagini yoxlamaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int tmp = arr[1] - arr[0];
+            //bool edediSilsile = true;
+
+            //for (int i = 1; i < arr.Length-1; i++)
+            //{
+            //    if (tmp != arr[i + 1] - arr[i])
+            //    {
+            //        Console.WriteLine("Ededi silsile deyil.");
+            //        edediSilsile = false;
+            //        break;
+            //    }
+            //    Console.WriteLine(arr[i]);
+            //}
+            //if (edediSilsile)
+            //{
+            //    Console.WriteLine("Ededi silsiledir.");
+            //}
+            #endregion
+
+            #region Task21
+            ////Hendesi silsile olub olmamasini yoxlamaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int tmp = arr[1] / arr[0];
+            //bool hendesiSilsile = true;
+
+            //for (int i = 1; i < arr.Length-1; i++)
+            //{
+            //    if (tmp != arr[i + 1] / arr[i])
+            //    {
+            //        Console.WriteLine("Hendesi silsile deyil!");
+            //        hendesiSilsile = false;
+            //        break;
+            //    }
+            //}
+            //if (hendesiSilsile)
+            //    Console.WriteLine("Hendesi silsiledir!");
+            #endregion
+
+            #region Task24
+            ////x elementinin tekrarlanma sayini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+            //Console.Write("Yoxlanilan ededi daxil edin: ");
+            //int x = int.Parse(Console.ReadLine());
+            //int count = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (x == arr[i])
+            //    {
+            //        count++;
+            //    }
+            //}
+            //Console.WriteLine($"Ededin tekrarlanma sayi: {count}");
+            #endregion
+
+            #region Task26
+            ////Musbet,menfi, sifira beraber olan reqemlerin sayini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int count = 0;
+            //int countMinus = 0;
+            //int countZero = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > 0)
+            //    {
+            //        count++;
+            //    }
+            //    if (arr[i] < 0)
+            //    {
+            //        countMinus++;
+            //    }
+            //    if (arr[i] == 0)
+            //    {
+            //        countZero++;
+            //    }
+            //}
+            //Console.WriteLine("Musbet olan reqemlerin sayi: " + count + "\nMenfi olan reqemlerin sayi: " + countMinus + "\nSifira beraber olan reqemlerin sayi: " + countZero);
+            #endregion
+
             Console.Write("Massivin uzunlugunu qeyd edin: ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
@@ -393,25 +509,6 @@
                 Console.Write($"Elementleri [{i}] qeyd edin: ");
                 arr[i] = int.Parse(Console.ReadLine());
             }
-
-            int tmp = arr[1] - arr[0];
-            bool edediSilsile = true;
-
-            for (int i = 1; i < arr.Length-1; i++)
-            {
-                if (tmp != arr[i + 1] - arr[i])
-                {
-                    Console.WriteLine("Ededi silsile deyil.");
-                    edediSilsile = false;
-                    break;
-                }
-                Console.WriteLine(arr[i]);
-            }
-            if (edediSilsile)
-            {
-                Console.WriteLine("Ededi silsiledir.");
-            }
-            #endregion
         }
     }
 }
