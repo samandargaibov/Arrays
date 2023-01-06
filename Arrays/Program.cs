@@ -532,6 +532,38 @@
             //Console.WriteLine("Ededi ortasi: " + avg + " Maksimal ferqi: " + maxFerq);
             #endregion
 
+            #region Task29
+            ////birinci elementi ile sonuncu minimal elementin yerinin deyishdirilmesini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int min = 0;
+            //int tmp1 = arr[0];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] <= arr[min])
+            //    {
+            //        min = i;
+            //        arr[0] = arr[min];
+            //    }
+            //}
+
+            //arr[min]= tmp1;
+
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine("Yerler deyishdikden sonra massiv: " + item);
+            //}
+            #endregion
+
 
         }
     }
