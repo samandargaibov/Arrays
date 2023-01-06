@@ -466,6 +466,46 @@
             //Console.WriteLine($"Ededin tekrarlanma sayi: {count}");
             #endregion
 
+            #region Task25
+            ////Massivin maksimal ve minimal elementlerin yerlerinin deyishdirilmesini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int min = 0;
+            //int max = 0;
+            //int a = 0;
+            //int b = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] <= arr[min])
+            //    {
+            //        min = i;
+            //        a = arr[min];
+            //    }
+            //    if (arr[i] > arr[max])
+            //    {
+            //        max = i;
+            //        b= arr[max];
+            //    }
+            //}
+
+            //arr[max] = a;
+            //arr[min] = b;
+
+            //foreach (var item in arr)
+            //{
+            //    Console.WriteLine("Yerler deyishdikden sonra massiv: " + item);
+            //}
+            #endregion
+
             #region Task26
             ////Musbet,menfi, sifira beraber olan reqemlerin sayini tapmaq.
             //Console.Write("Massivin uzunlugunu qeyd edin: ");
