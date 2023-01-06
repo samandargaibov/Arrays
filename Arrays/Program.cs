@@ -500,15 +500,39 @@
             //Console.WriteLine("Musbet olan reqemlerin sayi: " + count + "\nMenfi olan reqemlerin sayi: " + countMinus + "\nSifira beraber olan reqemlerin sayi: " + countZero);
             #endregion
 
-            Console.Write("Massivin uzunlugunu qeyd edin: ");
-            int n = int.Parse(Console.ReadLine());
-            int[] arr = new int[n];
+            #region Task27
+            /////Ededi ortasinin maximal ferqini tapmaq.
+            //Console.Write("Massivin uzunlugunu qeyd edin: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.Write($"Elementleri [{i}] qeyd edin: ");
-                arr[i] = int.Parse(Console.ReadLine());
-            }
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int sum = 0;
+            //int count = 0;
+            //int min = 0;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] < arr[min])
+            //    {
+            //        min = i;
+            //    }
+            //    sum += arr[i];
+            //    count++;
+            //}
+
+            //int avg = sum / count;
+            //int maxFerq = avg - arr[min];
+
+            //Console.WriteLine("Ededi ortasi: " + avg + " Maksimal ferqi: " + maxFerq);
+            #endregion
+
+
         }
     }
 }
