@@ -384,40 +384,33 @@
 
             #region Task20
             ////Ededi silsile olub olmamagini yoxlamaq.
-            //Console.Write("Massivin uzunlugunu qeyd edin: ");
-            //int n = int.Parse(Console.ReadLine());
-            //int[] arr = new int[n];
+            Console.Write("Massivin uzunlugunu qeyd edin: ");
+            int n = int.Parse(Console.ReadLine());
+            int[] arr = new int[n];
 
-            //for (int i = 0; i < arr.Length; i++)
-            //{
-            //    Console.Write($"Elementleri [{i}] qeyd edin: ");
-            //    arr[i] = int.Parse(Console.ReadLine());
-            //}
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write($"Elementleri [{i}] qeyd edin: ");
+                arr[i] = int.Parse(Console.ReadLine());
+            }
 
-            //int tmp = 0;
-            //int count = 1;
+            int tmp = arr[1] - arr[0];
+            bool edediSilsile = true;
 
-            //for (int i = 0; i < arr.Length; i++)
-            //{
-            //    tmp = 1 + arr[i];
-
-            //    for (int j = 0; j < arr.Length - 1; j++)
-            //    {
-
-            //        if (arr[j] + tmp == arr[count])
-            //        {
-            //            count++;
-            //            continue;
-            //        }
-            //        else
-            //        {
-            //            Console.WriteLine("Ededi silsile deyil.");
-            //            return;
-            //        }
-            //    }
-            //    break;
-            //}
-            //Console.WriteLine("Ededi silsiledir.");
+            for (int i = 1; i < arr.Length-1; i++)
+            {
+                if (tmp != arr[i + 1] - arr[i])
+                {
+                    Console.WriteLine("Ededi silsile deyil.");
+                    edediSilsile = false;
+                    break;
+                }
+                Console.WriteLine(arr[i]);
+            }
+            if (edediSilsile)
+            {
+                Console.WriteLine("Ededi silsiledir.");
+            }
             #endregion
         }
     }
